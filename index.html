@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/22b59d68ea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="audio-palyer">
+            <nav>
+                <div class="circle">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+
+            <img src="tilawat.jpeg" id="tumbnail" alt="">
+            <h1>Surah Ar-Rahman</h1>
+            <p> This Surah communicates the wonders of Allah's greatness, His countless blessings, the helplessness of Muslims, and accountability before Allah.</p>
+
+            <audio src="media/055.mp3" id="tlwt"  ></audio>
+           <br>
+            <input type="range" name="" value="0" id="progress">
+
+            <div class="controls">
+                <div ><i class="fa-solid fa-backward" id="backward"> </i></div>
+
+                <div>
+                    <i class="fa-solid fa-play" id="ctrlIcon"></i>
+                    <!-- <i class="fa-solid fa-pause"></i> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-forward" id="forward"></i>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
